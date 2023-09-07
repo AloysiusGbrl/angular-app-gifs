@@ -1,0 +1,11 @@
+<div class="row">
+  <!--En  pantallas pequeñas mostrar columnas de 3 posicipnes
+  y en pantallas aún más pequeñas, mostrar olumnas de 6 posiciones-->
+  <gifs-card
+  *ngFor="let gif of gifs"
+  [gif]="gif"
+  class="col-md-3 col-sm-6">
+
+  </gifs-card>
+
+</div>
